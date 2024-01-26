@@ -4,9 +4,9 @@ const user = {};
 
 const registration = [
   {
-    type: "input",
-    name: "name",
-    message: "Введите ваше имя:",
+    type: 'input',
+    name: 'name',
+    message: 'Введите ваше имя:',
   },
 ];
 
@@ -17,4 +17,4 @@ function registrationUser() {
   });
 }
 
-registrationUser();
+module.exports = registrationUser;

@@ -1,7 +1,8 @@
 // Наш герой.
+const registrationUser = require('../../registration');
 
 class Hero {
-  constructor({position, score}) {
+  constructor({ position, score }) {
     this.skin = '🤠'; // можете использовать любые emoji '💃'
     this.position = position;
     this.score = score || 0;

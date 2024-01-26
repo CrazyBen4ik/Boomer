@@ -6,7 +6,7 @@ class View {
   }
 
   render(track) {
-    const yourTeamName = 'Elbrus';
+    const yourTeamName = 'terminalnaya realnost';
     // Тут всё рисуем.
     console.clear();
     console.log(track.join(''));
